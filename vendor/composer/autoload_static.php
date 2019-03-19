@@ -11,6 +11,10 @@ class ComposerStaticInitba5f3b999670e66357a5947032b2a1eb
         array (
             'ishop\\' => 6,
         ),
+        'R' => 
+        array (
+            'RedBeanPHP\\' => 11,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -21,6 +25,10 @@ class ComposerStaticInitba5f3b999670e66357a5947032b2a1eb
         'ishop\\' => 
         array (
             0 => __DIR__ . '/..' . '/ishop/core',
+        ),
+        'RedBeanPHP\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gabordemooij/redbean/RedBeanPHP',
         ),
         'App\\' => 
         array (
