@@ -66,7 +66,7 @@
                             <p><?=$hit->title;?></p>
                             <h4>
                                 <!--<a class="item_add" href="#"><i></i></a>-->
-                                <a class="add-to-card-link" href="cart/add?id=<?=$hit->id;?>" data-id="<?=$hit->id;?>"><i></i></a>
+                                <a class="add-to-cart-link" href="cart/add?id=<?=$hit->id;?>" data-id="<?=$hit->id;?>"><i></i></a>
                                 <span class=" item_price"><?=$curr['symbol_left']?><?=$hit->price * $curr['value'];?><?=$curr['symbol_right']?></span>
                                 <?php if ($hit->old_price): ?>
                                 <small><del><?=$curr['symbol_left']?><?=$hit->old_price * $curr['value'];?><?=$curr['symbol_right']?></del></small>

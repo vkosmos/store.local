@@ -24,7 +24,6 @@ class Router
 
     public static function dispatch($url)
     {
-//        echo $url;
         $url = self::removeQueryString($url);
 
         if (self::matchRoute($url)){
